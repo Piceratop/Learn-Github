@@ -3,6 +3,9 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+body{
+  position: absolute;
+}
 header{
   width: 100%;
   color: white;
@@ -70,6 +73,17 @@ hr {
 }
 .quality{
   width: 22.5%;
+}
+.imageBox{
+  position: relative;
+  height: 90px;
+  width: 100%;
+}
+.qualityImage{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25%;
 }
 .qualityTitle{
   font-weight: 300;
