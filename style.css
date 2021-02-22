@@ -13,9 +13,6 @@ header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("hero.jpg");
   background-size: 100%;
 }
-#howWeWork{
-  margin-bottom: 50px;
-}
 #navBar{
   width: 75%;
   margin: 0 auto;
@@ -55,7 +52,7 @@ header{
 }
 #howWeWork{
   text-align: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 hr {
   margin: 25px;
@@ -99,9 +96,45 @@ hr {
   font-size: 16px;
   line-height: 30px;
 }
+#foodImages{
+  display: flex;
+  flex-wrap: wrap;
+}
 .foodImage{
-  float: left;
+  display: inline-block;
   width: 25%;
   margin: 0;
   padding: 0;
+}
+#howItWork{
+  text-align: center;
+  padding: 50px 0;
+}
+/* .starIcons{
+  width: 100px;
+  display: inline-block;
+} */
+.number{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 50px;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 50%;
+}
+.appHelp{
+  text-align: left;
+  width: 450px;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.store{
+  width: 150px;
+}
+#citiesWeAreIn{
+  background-color: #d9d9d9;
 }
