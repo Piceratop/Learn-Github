@@ -137,4 +137,36 @@ hr {
 }
 #citiesWeAreIn{
   background-color: #d9d9d9;
+  text-align: center;
+  padding: 50px 100px 100px;
+}
+.city{
+  width: 22.5%;
+  text-align: left;
+  font-weight: 300;
+}
+.cityImage{
+  width: 100%;
+}
+.cityName{
+  margin: 5px;
+  font-size: 20px;
+}
+.cityIcon{
+  height: 20px;
+  display: inline;
+}
+.cityDis{
+  font-size: 20px;
+  display: inline;
+}
+.cityMail{
+  font-size: 20px;
+  display: inline;
+  color: orange;
+  text-decoration: underline;
+}
+#customerTestimonials{
+  text-align: center;
+  padding: 50px 100px;
 }
