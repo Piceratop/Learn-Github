@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 body{
   position: absolute;
@@ -86,16 +87,15 @@ hr {
   width: 25%;
 }
 .qualityTitle{
-  font-weight: 300;
   font-size: 24px;
   line-height: 40px;
 }
 .qualityDescription{
   text-align: justify;
-  font-weight: 300;
   font-size: 16px;
   line-height: 30px;
 }
+/* Food Images */
 #foodImages{
   display: flex;
   flex-wrap: wrap;
@@ -110,15 +110,10 @@ hr {
   text-align: center;
   padding: 50px 0;
 }
-/* .starIcons{
-  width: 100px;
-  display: inline-block;
-} */
 .number{
   width: 50px;
   height: 50px;
   font-size: 25px;
-  font-weight: 300;
   line-height: 50px;
   color: orange;
   border: 1px solid orange;
@@ -129,21 +124,19 @@ hr {
   width: 450px;
   height: 52px;
   font-size: 20px;
-  font-weight: 300;
   line-height: 26px;
 }
 .store{
   width: 150px;
 }
 #citiesWeAreIn{
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
   text-align: center;
-  padding: 50px 100px 100px;
+  padding: 50px 0 100px;
 }
 .city{
   width: 22.5%;
   text-align: left;
-  font-weight: 300;
 }
 .cityImage{
   width: 100%;
@@ -168,5 +161,89 @@ hr {
 }
 #customerTestimonials{
   text-align: center;
-  padding: 50px 100px;
+  padding: 50px 100px 100px;
+}
+.customers{
+  width: 30%;
+  font-size: 20px;
+  text-align: justify;
+}
+.customerThought{
+  padding: 20px;
+}
+.customerId{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.customerImage{
+  display: inline-block;
+  width: 40px;
+  border-radius: 50%;
+}
+.customerName{
+  display: inline-block;
+  padding: 0 10px;
+}
+#pricingPlan{
+  text-align: center;
+  padding: 50px 100px 100px;
+}
+.plans{
+  text-align: left;
+  width: 30%;
+  box-shadow: 2px 2px 5px #969696;
+}
+.typeOfPlan{
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.type{
+  font-size: 20px;
+}
+.price{
+  font-size: 75px;
+  font-weight: 100;
+  color: orange;
+  display: inline;
+}
+.productOfPlan{
+  padding: 25px;
+}
+.product{
+  font-size: 20px;
+}
+.signUp{
+  padding: 15px 50px;
+  background-color: #f2f2f2;
+}
+.signUpButton{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: solid 2px orange;
+  border-radius: 50px;
+  color: orange;
+  transition: 0.5s;
+}
+.signUpButton:hover{
+  background-color: orange;
+  color: white;
+}
+#contactForm{
+  text-align: center;
+  padding: 50px 100px 100px;
+}
+#contact{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 24px;
+  line-height: 30px;
+}
+.inputBox{
+  width: 100%;
+  font-size: 24px;
+  line-height: 30px;
 }

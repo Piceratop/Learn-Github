@@ -60,8 +60,9 @@
             </li>
         </ul>
     </div>
+    <!-- foodImage -->
     <div id="foodImages">
-        <img src="Food Images/1.jpg" class="foodImage" id="foodImage">
+        <img src="Food Images/1.jpg" class="foodImage">
         <img src="Food Images/2.jpg" class="foodImage">
         <img src="Food Images/3.jpg" class="foodImage">
         <img src="Food Images/4.jpg" class="foodImage">
@@ -100,7 +101,7 @@
     <div id="citiesWeAreIn">
         <h2 style="font-size: 50px; font-weight: 200; margin: 25px;">WE ARE CURRENTLY IN THESE CITIES</h2>
         <hr />
-        <div style="display: flex; justify-content: space-between;">
+        <div style="display: flex; justify-content: space-around;">
             <div class="city">
                 <img src="City images/lisbon.jpg" class="cityImage">
                 <p class="cityName">LISBON</p>
@@ -150,9 +151,124 @@
     <div id="customerTestimonials">
         <h2 style="font-size: 50px; font-weight: 200; margin: 25px;">OUR CUSTOMERS CAN'T LIVE WITHOUT US</h2>
         <hr />
-        <div style="display: flex; justify-content: space-between;">
-
+        <div style="display: flex; justify-content: space-around;">
+            <div class="customers">
+                <p class="customerThought">"Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!"</p>
+                <div class="customerId">
+                    <img src="Customers/customer-1.jpg" class="customerImage">
+                    <p class="customerName">Alberto Duncan</p>
+                </div>
+            </div>
+            <div class="customers">
+                <p class="customerThought">"Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!"</p>
+                <div class="customerId">
+                    <img src="Customers/customer-2.jpg" class="customerImage">
+                    <p class="customerName">Joana Silva</p>
+                </div>
+            </div>
+            <div class="customers">
+                <p class="customerThought">"I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!"</p>
+                <div class="customerId">
+                    <img src="Customers/customer-3.jpg" class="customerImage">
+                    <p class="customerName">Milton Chapman</p>
+                </div>
+            </div>
         </div>
+    </div>
+    <div id="pricingPlan">
+        <h2 style="font-size: 50px; font-weight: 200; margin: 25px;">START EATING HEALTHY TODAY</h2>
+        <hr />
+        <div style="display: flex; justify-content: space-around;">
+            <div class="plans">
+                <div class="typeOfPlan">
+                    <p class="type">STARTER</p>
+                    <p class="price">$19 </p><p style="display: inline; color: orange;">/month</p><br><br>
+                </div>
+                <div class="productOfPlan">
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> 1 meal</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Order from 8am to 12pm</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Free delivery</p>
+                    <br>
+                    <br>
+                </div>
+                <div class="signUp">
+                    <button class="signUpButton">Sign up now</button>
+                </div>
+            </div>
+            <div class="plans">
+                <div class="typeOfPlan">
+                    <p class="type">PRO</p>
+                    <p class="price">$149 </p><p style="display: inline; color: orange;">/month</p>
+                    <p>That's only $14.90 per meal.</p>
+                </div>
+                <div class="productOfPlan">
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> 1 meal 10 days/month</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Order 24/7</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Free delivery</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Access to newest creations</p>
+                </div>
+                <div class="signUp">
+                    <button class="signUpButton">Sign up now</button>
+                </div>
+            </div>
+            <div class="plans">
+                <div class="typeOfPlan">
+                    <p class="type">PREMIUM</p>
+                    <p class="price">$399 </p><p style="display: inline; color: orange;">/month</p>
+                    <p>That's only $13.30 per meal.</p>
+                </div>
+                <div class="productOfPlan">
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> 1 meal every day</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Order 24/7</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Free delivery</p>
+                    <br>
+                    <p class="product"><img src="checked.svg" style="width: 20px;"> Access to newest creations</p>
+                </div>
+                <div class="signUp">
+                    <button class="signUpButton">Sign up now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactForm">
+        <h2 style="font-size: 50px; font-weight: 200; margin: 25px;">WE'RE HAPPY TO HEAR FROM YOU</h2>
+        <hr />
+        <table id="contact">
+            <tr>
+                <td>Name</td>
+                <td><input placeholder="Yourname" class="inputBox"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input placeholder="Yourname" class="inputBox"></td>
+            </tr>
+            <tr>
+                <td>How did you find us?</td>
+                <td>
+                    <select class="inputBox">
+                        <option value="friends" selected>Friends</option>
+                        <option value="family">Family</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="others">Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Newsletter?</td>
+                <td><input type="checkbox" class="inputBox">Yes, please!</td>
+            </tr>
+            <tr>
+                <td>Drop us a line.</td>
+                <td><textarea rows="5" cols="60" placeholder="Yourname" class="inputBox"></textarea></td>
+            </tr>
+        </table>
     </div>
     <footer>
 
