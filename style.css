@@ -1,49 +1,58 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-body{
+
+body {
   position: absolute;
 }
-header{
+
+/* Header */
+header {
   width: 100%;
   color: white;
   height: 700px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("hero.jpg");
   background-size: 100%;
 }
-#navBar{
+
+#navBar {
   width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
 }
-#logo{
+
+#logo {
   color: white;
   filter: invert(100%);
   width: 100px;
   margin: 20px 50px;
 }
-#navTabs{
+
+#navTabs {
   width: 100%;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-.navTab{
+
+.navTab {
   margin: 0 50px;
   padding: 50px 0 50px;
 }
-#slogan{
+
+#slogan {
   margin: 200px 0 0 150px;
   font-size: 50px;
   font-weight: 100;
   display: flex;
   justify-content: flex-start;
 }
-#headBut button{
+
+#headBut button {
   width: 150px;
   height: 40px;
   border-radius: 20px;
@@ -51,10 +60,13 @@ header{
   font-size: 15px;
   border: 2px orange solid;
 }
-#howWeWork{
+
+/* Qualitites */
+#howWeWork {
   text-align: center;
   margin: 50px 0;
 }
+
 hr {
   margin: 25px;
   width: 100px;
@@ -64,7 +76,8 @@ hr {
   background-color: orange;
   border: 0 none;
 }
-#qualities{
+
+#qualities {
   width: 80%;
   list-style: none;
   display: flex;
@@ -72,45 +85,56 @@ hr {
   margin: 0 auto;
   text-align: left;
 }
-.quality{
+
+.quality {
   width: 22.5%;
 }
-.imageBox{
+
+.imageBox {
   position: relative;
   height: 90px;
   width: 100%;
 }
-.qualityImage{
+
+.qualityImage {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   width: 25%;
 }
-.qualityTitle{
+
+.qualityTitle {
   font-size: 24px;
   line-height: 40px;
 }
-.qualityDescription{
+
+.qualityDescription {
   text-align: justify;
   font-size: 16px;
   line-height: 30px;
 }
+
 /* Food Images */
-#foodImages{
+#foodImages {
   display: flex;
   flex-wrap: wrap;
 }
-.foodImage{
+
+.foodImage {
   display: inline-block;
   width: 25%;
   margin: 0;
   padding: 0;
 }
-#howItWork{
+
+/* App */
+#howItWork {
+  background-color: #f2f2f2;
   text-align: center;
   padding: 50px 0;
 }
-.number{
+
+.number {
   width: 50px;
   height: 50px;
   font-size: 25px;
@@ -119,105 +143,133 @@ hr {
   border: 1px solid orange;
   border-radius: 50%;
 }
-.appHelp{
+
+.appHelp {
   text-align: left;
   width: 450px;
   height: 52px;
   font-size: 20px;
   line-height: 26px;
 }
-.store{
+
+.store {
   width: 150px;
 }
-#citiesWeAreIn{
+
+/* Cities */
+#citiesWeAreIn {
   /* background-color: #d9d9d9; */
   text-align: center;
   padding: 50px 0 100px;
 }
-.city{
+
+.city {
   width: 22.5%;
   text-align: left;
 }
-.cityImage{
+
+.cityImage {
   width: 100%;
 }
-.cityName{
+
+.cityName {
   margin: 5px;
   font-size: 20px;
 }
-.cityIcon{
+
+.cityIcon {
   height: 20px;
   display: inline;
 }
-.cityDis{
+
+.cityDis {
   font-size: 20px;
   display: inline;
 }
-.cityMail{
+
+.cityMail {
   font-size: 20px;
   display: inline;
   color: orange;
   text-decoration: underline;
 }
-#customerTestimonials{
+
+/* Customer testimonials */
+#customerTestimonials {
+  background-color: #f2f2f2;
   text-align: center;
   padding: 50px 100px 100px;
 }
-.customers{
+
+.customers {
   width: 30%;
   font-size: 20px;
   text-align: justify;
 }
-.customerThought{
+
+.customerThought {
   padding: 20px;
 }
-.customerId{
+
+.customerId {
   height: 40px;
   display: flex;
   align-items: center;
 }
-.customerImage{
+
+.customerImage {
   display: inline-block;
   width: 40px;
   border-radius: 50%;
 }
-.customerName{
+
+.customerName {
   display: inline-block;
   padding: 0 10px;
 }
-#pricingPlan{
+
+/* Pricing */
+#pricingPlan {
   text-align: center;
   padding: 50px 100px 100px;
 }
-.plans{
+
+.plans {
   text-align: left;
   width: 30%;
   box-shadow: 2px 2px 5px #969696;
 }
-.typeOfPlan{
+
+.typeOfPlan {
   background-color: #f2f2f2;
   padding: 20px;
 }
-.type{
+
+.type {
   font-size: 20px;
 }
-.price{
+
+.price {
   font-size: 75px;
   font-weight: 100;
   color: orange;
   display: inline;
 }
-.productOfPlan{
+
+.productOfPlan {
   padding: 25px;
 }
-.product{
+
+.product {
   font-size: 20px;
 }
-.signUp{
+
+.signUp {
   padding: 15px 50px;
   background-color: #f2f2f2;
 }
-.signUpButton{
+
+.signUpButton {
   display: block;
   margin: 0 auto;
   padding: 10px 30px;
@@ -227,23 +279,71 @@ hr {
   color: orange;
   transition: 0.5s;
 }
-.signUpButton:hover{
+
+.signUpButton:hover {
   background-color: orange;
   color: white;
 }
-#contactForm{
+
+#contactForm {
+  background-color: #f2f2f2;
   text-align: center;
   padding: 50px 100px 100px;
 }
-#contact{
+
+#contact {
   display: block;
+  text-align: left;
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
   font-size: 24px;
   line-height: 30px;
 }
-.inputBox{
+
+.contactTag {
+  width: 30%;
+}
+
+.inputBox {
   width: 100%;
   font-size: 24px;
   line-height: 30px;
+}
+
+.sendButton {
+  display: block;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: solid 2px orange;
+  border-radius: 50px;
+  color: orange;
+  transition: 0.5s;
+}
+
+.sendButton:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #262626;
+  color: #4d4d4d;
+}
+
+.navBarFooter {
+  text-decoration: none;
+  color: #4d4d4d;
+  padding: 0 5px;
+}
+
+#socialIcons {
+  float: right;
+}
+
+.socialIcon {
+  width: 24px;
+  padding: 0 5px;
 }
